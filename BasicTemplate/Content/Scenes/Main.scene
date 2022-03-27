@@ -1,7 +1,7 @@
 {
 	"ID": "a470726f441936acfe25318b162c336c",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6222,
+	"EngineBuild": 6228,
 	"Data": [
 		{
 			"ID": "a470726f441936acfe25318b162c336c",
@@ -141,7 +141,7 @@
 			"Transform": {
 				"Translation": {
 					"X": -3.7920401096343996,
-					"Y": 56.70222091674805,
+					"Y": 71.63658142089844,
 					"Z": 176.7799530029297
 				},
 				"Orientation": {
@@ -276,12 +276,7 @@
 					"W": 1.910685465164705e-15
 				}
 			},
-			"V": {
-	"Size": {
-		"X": 1091.0,
-		"Y": 580.0
-	}
-}
+			"V": {}
 		},
 		{
 			"ID": "e02e4bdf4f731308ad6b3da59ac598f9",
@@ -299,18 +294,13 @@
 			"TypeName": "FlaxEngine.UIControl",
 			"ParentID": "4d0c174249ce07ba70a2f68c379ab667",
 			"Name": "VirtualThumbstick_Right",
-			"Transform": {
-				"Translation": {
-					"X": 941.0,
-					"Y": 430.0,
-					"Z": 0.0
-				}
-			},
 			"Control": "VirtualThumbStick",
 			"Data": {
+	"AutoSize": true,
 	"CircleBrush": {
 		"$type": "FlaxEngine.GUI.TextureBrush, FlaxEngine.CSharp",
-		"Texture": "59c46f4e4405bd65cc3388b16ed1449a"
+		"Texture": "59c46f4e4405bd65cc3388b16ed1449a",
+		"Filter": 1
 	},
 	"Color": {
 		"R": 1.0,
@@ -333,10 +323,10 @@
 		"Y": 1.0
 	},
 	"Offsets": {
-		"Left": -150.0,
-		"Right": 150.0,
-		"Top": -150.0,
-		"Bottom": 150.0
+		"Left": 0.0,
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
 	},
 	"Scale": {
 		"X": 1.0,
@@ -367,18 +357,13 @@
 			"TypeName": "FlaxEngine.UIControl",
 			"ParentID": "4d0c174249ce07ba70a2f68c379ab667",
 			"Name": "VirtualThumbstick_Left",
-			"Transform": {
-				"Translation": {
-					"X": 0.0,
-					"Y": 430.0,
-					"Z": 0.0
-				}
-			},
 			"Control": "VirtualThumbStick",
 			"Data": {
+	"AutoSize": true,
 	"CircleBrush": {
 		"$type": "FlaxEngine.GUI.TextureBrush, FlaxEngine.CSharp",
-		"Texture": "59c46f4e4405bd65cc3388b16ed1449a"
+		"Texture": "59c46f4e4405bd65cc3388b16ed1449a",
+		"Filter": 1
 	},
 	"Color": {
 		"R": 1.0,
@@ -402,9 +387,9 @@
 	},
 	"Offsets": {
 		"Left": 0.0,
-		"Right": 150.0,
-		"Top": -150.0,
-		"Bottom": 150.0
+		"Right": 0.0,
+		"Top": 0.0,
+		"Bottom": 0.0
 	},
 	"Scale": {
 		"X": 1.0,
@@ -444,12 +429,7 @@
 					"W": 1.910685465164705e-15
 				}
 			},
-			"V": {
-	"Size": {
-		"X": 0.0,
-		"Y": 0.0
-	}
-}
+			"V": {}
 		},
 		{
 			"ID": "f1043559471eb99754106b8b0dd9c6f4",
@@ -478,6 +458,7 @@
 		"Font": "4508d98f4aa1f0bd59362b81d47e38f4",
 		"Size": 8
 	},
+	"Material": null,
 	"Margin": {
 		"Left": 40.0,
 		"Right": 40.0,
