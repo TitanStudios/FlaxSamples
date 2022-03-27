@@ -1,0 +1,12 @@
+{
+	"configurations": [
+		{
+			"name": "FirstPersonShooter",
+			"includePath": [
+			],
+			"intelliSenseMode": "msvc-x64",
+			"defines": [
+			]
+		}
+	]
+}

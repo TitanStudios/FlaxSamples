@@ -1,0 +1,20 @@
+{
+	"settings": {
+		"typescript.tsc.autoDetect": "off",
+		"npm.autoDetect": "off",
+		"gulp.autoDetect": "off",
+		"jake.autoDetect": "off",
+		"grunt.autoDetect": "off",
+		"omnisharp.defaultLaunchSolution": "FirstPersonShooter.sln"
+	},
+	"folders": [
+		{
+			"name": "FirstPersonShooter",
+			"path": "."
+		},
+		{
+			"name": "Flax",
+			"path": "D:\\Flax\\Flax_1.3"
+		}
+	]
+}
